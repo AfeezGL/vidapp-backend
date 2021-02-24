@@ -41,6 +41,9 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    'rest_framework',
+    'video.apps.VideoConfig',
+    'channels.apps.ChannelsConfig'
 ]
 
 MIDDLEWARE = [
